@@ -14,3 +14,5 @@ Subsequently, within the sip_uac_stop_timer function, the pointer t is passed to
 ![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_2.png)
 In the sip_uac_transaction_release function, the memory space pointed to by the t pointer is released at line 59.
 ![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_3.png)
+After the pointer t is released, the program uses t->status at line 256, resulting in a Use-After-Free (UAF) vulnerability.
+![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_4.png)
