@@ -8,4 +8,6 @@ ireader media-server download address
 https://github.com/ireader/media-server.git
 
 1、A Use-After-Free (UAF) vulnerability was discovered at line 256 in the file /media-server/libsip/src/uac/sip-uac-transaction.c.
-! [text ] (https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_1.png)
+![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_1.png)
+![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_2.png)
+![image](https://github.com/LuMingYinDetect/media-server_detect/blob/main/media-server_3.png)
